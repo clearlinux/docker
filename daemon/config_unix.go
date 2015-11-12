@@ -13,7 +13,7 @@ import (
 var (
 	defaultPidFile = "/var/run/docker.pid"
 	defaultGraph   = "/var/lib/docker"
-	defaultExec    = "native"
+	defaultExec    = "clr"
 )
 
 // Config defines the configuration of a docker daemon.
